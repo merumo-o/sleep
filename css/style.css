@@ -25,6 +25,7 @@ video{
   position: absolute;
   top: 2500px;
   max-width:400px ;
- right: 150px;
+  left: 850px;
+right: 150px;
   z-index: 100;
 }
