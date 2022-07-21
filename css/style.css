@@ -3,20 +3,26 @@ html {
 }
 
 body {
-  background-image: url(/de.png);
+  /* background-image: url(/de.png); */
   max-width: 1440px;
   height: 6070px;
   text-align: center;
   margin: 0 auto;
 }
 
-img{
+a img{
   position: fixed;
   bottom: 20px;
   right: 50px
 }
+img[alt="da"]{
+  width: 100%;
+  height: 100%;
+}
 video{
-  margin-top: 2500px;
+  position: absolute;
+  top: 2500px;
   max-width:400px ;
-  margin-left: 530px;
+ right: 150px;
+  z-index: 100;
 }
