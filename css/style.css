@@ -4,7 +4,7 @@ html {
 
 body {
   /* background-image: url(/de.png); */
-
+  max-width: 1980px;
   height: 6070px;
   text-align: center;
   margin: 0 auto;
@@ -20,10 +20,12 @@ img[alt="da"] {
   max-height: 100%;
 }
 video {
-  position: relative;
-  top: -2800px;
-  max-width: 400px;
-
-  right: 550px;
-  z-index: 100;
+  position: absolute;
+  width: 325px;
+  margin:  0 auto;
+  text-align: center;
+  margin-top: 2600px;
+  right: 50%;
+  margin-right: -500px;
+  
 }
